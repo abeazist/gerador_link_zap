@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="parte.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="parte.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,17 +12,20 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/imask"></script>
-    <script src="parte.js"></script>
-        
+        <script src="https://cdn.jsdelivr.net/npm/imask"></script>
+        <script src="parte.js"></script>
+        <script src="dist/clipboard.min.js"></script>
 
+        
+        
     <title>Gerador de Link WhatsApp</title>
 </head>
 <body>
     <div class="container">
         <h1>Gerador de Link<p>t</p> <img width="30px" src="whatsapp.svg" alt=""></h1><br>
         <div class="container-filho">
-            <input id="tel" placeholder="Telefone">
+            <input id="tel" placeholder="Telefone"
+            on="testeDaSilva()">
             <button id="linkZap" style="border: 2px solid black; border-radius: 5px;"><i style="color:white" class="fas fa-link"></i></button>
             <button id="enviar" style="border: 2px solid black; border-radius: 5px;"><i class="fas fa-paper-plane"></i></button>
         </div> 

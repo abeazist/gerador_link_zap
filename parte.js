@@ -1,3 +1,4 @@
-function testeDaSilva() {
-  console.log("EVENTO DA SILVA JR: ");
+function formatarNumero() {
+  var telefone = document.getElementById("tel").value;
+  console.log(telefone);
 }

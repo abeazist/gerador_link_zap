@@ -1,4 +1,8 @@
-function formatarNumero() {
-  var telefone = document.getElementById("tel").value;
-  console.log(telefone);
-}
+const linkzap = document.querySelectorAll("[linkzap]");
+const enviar = document.querySelectorAll("[enviar]");
+const telefone = document.querySelectorAll("[telefone]");
+
+criarLink.addEventListener('click',() => {
+  
+})
+
